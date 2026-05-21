@@ -1,33 +1,41 @@
 # ==========================================
 # FILE: jawaban_mahasiswa.py
-# NAMA: [Tulis Nama Anda di sini]
-# NIM: [Tulis NIM Anda di sini]
+# NAMA: [Sasikirana Rizky Ramadhania]
+# NIM: [1251100074]
 # ==========================================
 
 def tambah(a, b):
     """
     Fungsi untuk menjumlahkan a dan b.
     """
-    # Tulis kode Anda di bawah ini
-    pass
+    return a + b
+    print(tambah(10, 20))
 
 def kurang(a, b):
     """
     Fungsi untuk mengurangkan a dengan b.
     """
-    # Tulis kode Anda di bawah ini
-    pass
+    return a - b 
+    print(kurang(15, 15))
 
 def kali(a, b):
     """
     Fungsi untuk mengalikan a dan b.
     """
-    # Tulis kode Anda di bawah ini
-    pass
+    return a * b 
+    print(kali(5, 8))
 
 def bagi(a, b):
     """
     Fungsi untuk membagi a dengan b.
     """
-    # Tulis kode Anda di bawah ini
-    pass
+    if b == 0 : 
+        return "Error: Pembagian dengan nol tidak diperbolehkan"
+    return a / b 
+    print(bagi(10, 2))
+
+
+print(tambah(10, 20))
+print(kurang(15, 15))
+print(kali(5, 8))
+print(bagi(10, 2))
